@@ -1,0 +1,187 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+    color: #000;    
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	
+}
+.Container{
+width: 1170px;
+   /*позиционирование по центру*/
+    margin:0 auto;
+
+}
+
+
+.header{
+
+background: url('../image/header-bg%20(1).jpg') no-repeat center top /cover;
+
+}
+
+.menu{
+    color:azure;
+    
+    
+    
+}
+.header a{
+    color: #fff;
+}
+.menu{
+/*    для того чтобы все объекты выровнились в однгу линию*/
+    display: flex;
+
+}
+
+
+.menu li a{
+/*    Все буквы делает большими(просто запомнить)*/
+text-transform: uppercase;
+    text-decoration: none;
+/*    меняем размер шрифта*/
+    font-size: 14px;
+/*    растояние между буквами*/
+    letter-spacing: 0.1em;
+
+
+
+}
+
+.menu li{
+/*    расстояние между (home about tickets)*/
+    margin-right: 40px;
+    
+    
+}
+.tell{
+    font-size: 17px;
+/*    убирает нижниее подчеркивание*/
+    text-decoration: none;
+/*    номер телефона идет в право*/
+    margin-left: auto;
+    letter-spacing: 0.1em;
+    
+    
+}
+
+.nav{
+/*    выравнивает в одно строку(номер телефона)*/
+display: flex;
+/*все меню делает на одной горизонтале(по середине)*/
+    align-items: center;
+/*    пускаем nav вниз на 57 px*/
+    padding-top: 57px;
+
+}
+
+.logo{
+
+margin-right: 69px;
+
+}
+
+
+.offer{
+    
+    margin-top: 229px;
+    /*    Все буквы делает большими(просто запомнить)*/
+    text-transform: uppercase;
+
+
+
+
+
+}
+
+.offer p{
+    font-size: 30px;
+    color: #fff;
+/*    растояние между буквами*/
+    letter-spacing: 0.1em;
+
+
+
+}
+
+.offer h1{
+
+font-size: 100px;
+    color: #fff;
+    margin-top: -9px;
+
+
+}
+
+
+.btn{
+    display: block;
+    font-size: 17px;
+/*    делает текст по центру*/
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+/*    делаем линию(4 уголньник)*/
+    border: 1px solid #fff;
+    width: 238px;
+
+
+
+}
+
+
+section{
+    padding-top: 113px;
+    
+}
+ .Description{
+     display: flex;
+    
+/*    делает текст по краям правый к правому левый к левому(запомнить)*/
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+.desc{
+    max-width: 563px;
+    width: 100%;
+    
+}
+
